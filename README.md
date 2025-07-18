@@ -37,6 +37,36 @@ You will:
   - Vercel, Netlify, or GitHub Pages (for frontend)
 - Basic understanding of CI/CD concepts
 
+## Project Structure 
+task-manager/
+├── backend/
+│   ├── models/
+│   │   └── Task.js
+│   ├── routes/
+│   │   └── tasks.js
+│   ├── middleware/
+│   │   └── cors.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── TaskList.js
+│   │   │   ├── TaskForm.js
+│   │   │   └── TaskItem.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── package.json
+│   └── .env
+└── .github/
+    └── workflows/
+        ├── backend-cd.yml
+        └── frontend-cd.yml
+
 ## Deployment Platforms
 
 ### Backend Deployment Options
