@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL ='http://localhost:5000/api';
+const API_URL ='https://task-manager-80mc.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
