@@ -67,6 +67,10 @@ task-manager/
         ├── backend-cd.yml
         └── frontend-cd.yml
 
+## Link
+
+[Live Project](https://task-manager-e1md.onrender.com)
+
 ## Deployment Platforms
 
 ### Backend Deployment Options
